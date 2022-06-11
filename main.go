@@ -11,6 +11,12 @@ import (
 	"gopkg.in/ini.v1"
 )
 
+// browser.newtabpage.activity-stream.topSitesCount - number of top sites to show
+
+// CSS
+// toolkit.legacyUserProfileCustomizations.stylesheets=true 
+// chrome/userContent.css - custom css => @-moz-document url(about:newtab) {}
+
 // changes in user.js are applied every time the browser is restarted
 // changes in prefs.js should not be changed while the browser is running, because browser will change them
 
